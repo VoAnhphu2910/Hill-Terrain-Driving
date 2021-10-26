@@ -8,7 +8,7 @@ public class GameManager : MonoBehaviour
     public static GameManager instance;
 
     
-    public int coin;
+    private int coin;
     [Tooltip("Nhiên liệu tính bằng thời gian đơn vị là giây")]
     public int fuel;
     public int Gem;
@@ -29,6 +29,7 @@ public class GameManager : MonoBehaviour
     private GameObject []carList;
     public GameObject carObject;
     private CarController carController;
+
     [SerializeField]
     private Transform spawnPoint;
 
@@ -51,6 +52,7 @@ public class GameManager : MonoBehaviour
 
     private float timeCounting;
 
+    [HideInInspector]
     public UnityEvent<int> setCoin;
 
     // Start is called before the first frame update

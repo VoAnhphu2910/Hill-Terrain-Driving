@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Collection : MonoBehaviour
@@ -15,18 +13,6 @@ public class Collection : MonoBehaviour
     private int amount;
     [SerializeField]
     private Type type;
-
-    public bool check;
-    // Start is called before the first frame update
-    void Start()
-    {
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {

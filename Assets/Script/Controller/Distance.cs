@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -29,12 +27,6 @@ public class Distance : MonoBehaviour
         distanceSlider.maxValue = distance;
         
 
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 
     public void SetDistance()

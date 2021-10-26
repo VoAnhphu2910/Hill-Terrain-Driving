@@ -1,6 +1,5 @@
 using System.Collections;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class CarController : MonoBehaviour
 {
@@ -23,8 +22,6 @@ public class CarController : MonoBehaviour
 
     [SerializeField]
     private AudioSource audioSource;
-    [SerializeField]
-    AudioClip engineStarAudio;
     [SerializeField]
     AudioClip engineMoveAudio;
 
